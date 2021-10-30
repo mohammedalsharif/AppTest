@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cars ShowRom</string>
+    <string name="details_et_model_hint">Details</string>
+    <string name="details_et_color_hint">Color</string>
+    <string name="details_et_dpl_hint">Distance per Letter</string>
+    <string name="details_et_Discription_hint">Discrption</string>
+    <string name="custome_tv_textsize_color">14dp</string>
+</resources>

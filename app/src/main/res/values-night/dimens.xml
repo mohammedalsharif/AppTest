@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custome_card_elvation">10dp</dimen>
+    <dimen name="card_corner_raduios">10dp</dimen>
+    <dimen name="activity_veiw_cardactivity_LinerLayuot">16dp</dimen>
+    <dimen name="activity_veiw_cardactivity_LinerLayuot_padingTop">40dp</dimen>
+    <dimen name="custmome_imag_hight">100dp</dimen>
+    <dimen name="custome_car_texrsize_model">18dp</dimen>
+    <dimen name="custome_tv_textsize_color">14dp</dimen>
+    <dimen name="custome_tv_car_pading">10dp</dimen>
+    <dimen name="custome_tv_textwidth_color">95dp</dimen>
+</resources>

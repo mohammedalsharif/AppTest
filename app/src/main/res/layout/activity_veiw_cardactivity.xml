@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VeiwCardactivity"
+
+    >
+
+
+    <androidx.core.widget.NestedScrollView
+
+android:background="#FDFDFC"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        >
+
+        <LinearLayout
+            android:layout_margin="@dimen/activity_veiw_cardactivity_LinerLayuot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_veiw_cardactivity_LinerLayuot_padingTop"
+            android:orientation="vertical"
+
+
+
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:errorTextColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:endIconMode="clear_text"
+                app:startIconTint="@color/primary"
+                app:hintTextColor="@color/black"
+                app:boxStrokeColor="@color/primary_dark"
+                app:boxStrokeWidthFocused="0.7dp"
+                android:textColorHint="@color/icons"
+                app:counterOverflowTextColor="@color/primary_dark"
+                app:startIconDrawable="@drawable/details"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_ditaels_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="@string/details_et_model_hint"
+                    android:tooltipText="Name"
+                    >
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:errorTextColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:endIconMode="clear_text"
+                app:startIconTint="@color/primary"
+                app:hintTextColor="@color/black"
+                app:boxStrokeColor="@color/primary_dark"
+                app:boxStrokeWidthFocused="0.7dp"
+                android:textColorHint="@color/black"
+                app:startIconDrawable="@drawable/color"
+
+
+
+                >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/details_et_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/details_et_color_hint"
+
+                android:tooltipText="Name"
+
+
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:errorTextColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:endIconMode="clear_text"
+                app:startIconTint="@color/primary"
+                app:hintTextColor="@color/black"
+                app:boxStrokeColor="@color/primary_dark"
+                app:boxStrokeWidthFocused="0.7dp"
+                android:textColorHint="@color/black"
+                app:startIconDrawable="@drawable/oil"
+                >
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/distance_et_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/details_et_dpl_hint"
+                android:tooltipText="Name"
+
+
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:errorTextColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:startIconTint="@color/primary"
+                app:hintTextColor="@color/black"
+                app:boxStrokeColor="@color/primary_dark"
+                app:boxStrokeWidthFocused="0.7dp"
+                android:textColorHint="@color/black"
+                app:startIconDrawable="@drawable/description"
+                >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/details_et_Discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/details_et_Discription_hint"
+                android:tooltipText="Name"
+
+
+
+
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        >
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            >
+            <ImageView
+                android:id="@+id/ditaels_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/primary"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.5"
+                />
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/ditaels_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+               app:title="Car Details"
+
+
+                >
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

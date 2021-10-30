@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save_menu_ditels"
+        android:title="Save"
+        android:icon="@drawable/check"
+        android:visible="true"
+        app:showAsAction="always"
+        >
+    </item>
+    <item
+        android:id="@+id/Edit_menu_ditels"
+        android:title="Edit"
+        android:icon="@drawable/edit"
+        app:showAsAction="always"
+        >
+    </item>
+    <item
+        android:id="@+id/delet_menu_ditels"
+        android:title="Delet"
+        android:icon="@drawable/delete"
+        app:showAsAction="always"
+        >
+    </item>
+
+</menu>
